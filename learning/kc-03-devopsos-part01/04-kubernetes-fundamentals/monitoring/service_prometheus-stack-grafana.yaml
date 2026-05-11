@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    meta.helm.sh/release-name: prometheus-stack
+    meta.helm.sh/release-namespace: monitoring
+  creationTimestamp: "2026-05-08T04:18:44Z"
+  labels:
+    app.kubernetes.io/instance: prometheus-stack
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: grafana
+    app.kubernetes.io/version: 13.0.1
+    helm.sh/chart: grafana-12.3.0
+  name: prometheus-stack-grafana
+  namespace: monitoring
+  resourceVersion: "177370"
+  uid: 17e84b5a-6e7e-4b45-8092-b9da07e35eca
+spec:
+  clusterIP: 10.43.44.254
+  clusterIPs:
+  - 10.43.44.254
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: http-web
+    port: 80
+    protocol: TCP
+    targetPort: grafana
+  selector:
+    app.kubernetes.io/instance: prometheus-stack
+    app.kubernetes.io/name: grafana
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}
