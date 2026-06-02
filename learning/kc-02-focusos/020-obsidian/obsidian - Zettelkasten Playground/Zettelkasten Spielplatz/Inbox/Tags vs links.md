@@ -1,0 +1,13 @@
+- Links are for creating relations between notes
+- Meaningful
+- Tags are only for gathering notes
+	- State
+		- `#publish`
+		- `#consume`
+		- 
+	- Type
+		- `#article`
+		- `#course`
+		- `#youtube`
+		- `#book`
+- 

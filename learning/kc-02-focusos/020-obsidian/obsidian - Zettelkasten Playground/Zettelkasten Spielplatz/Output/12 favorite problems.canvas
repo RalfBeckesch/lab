@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"2845e439e2294516","type":"file","file":"Input/Articles/12 Favorite Problems - How to Spark Genius With the Power of Open Questions.md","x":-860,"y":-740,"width":660,"height":320},
+		{"id":"f101613bd6c25fc5","type":"file","file":"Zettelkasten/Richard Feynman relied on a method for his success.md","x":-1180,"y":-356,"width":629,"height":216},
+		{"id":"838470352ee611f5","type":"file","file":"Zettelkasten/Method of 12 favorite problems.md","x":-530,"y":-356,"width":330,"height":133},
+		{"id":"4af2fc52e50042e4","type":"file","file":"Zettelkasten/Using the 12 favorite problems as a lens to the world.md","x":-860,"y":-60,"width":620,"height":320}
+	],
+	"edges":[]
+}

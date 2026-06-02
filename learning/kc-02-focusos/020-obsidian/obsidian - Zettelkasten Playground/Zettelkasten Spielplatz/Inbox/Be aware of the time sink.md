@@ -1,0 +1,5 @@
+- It's a huge rabiit hole
+- Lots of content out there
+- Notetaking system should free up time
+- Reduce friction
+- Increase productivity
